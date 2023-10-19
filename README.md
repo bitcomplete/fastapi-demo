@@ -7,7 +7,7 @@ pip install "fastapi[all]"
 
 Start `uvicorn` with:
 ```sh
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
-Access the API documentation at http://localhost:8000/docs
+Access the API documentation at http://localhost:8000/docs or http://localhost:8000/redoc
